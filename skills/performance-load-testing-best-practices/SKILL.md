@@ -1,6 +1,6 @@
 ---
 name: performance-load-testing-best-practices
-description: Plan, execute, and operationalize performance and load testing across FastAPI, Next.js, PostgreSQL, and Dockerized environments. Use when defining latency and throughput targets, modeling realistic traffic profiles, selecting load-testing tools, running baseline and stress tests, identifying API and database bottlenecks, setting regression gates in CI, or validating production-readiness before release.
+description: Plan, execute, and operationalize performance and load testing across FastAPI, Next.js, PostgreSQL, and Dockerized environments. Use when defining latency and throughput targets, modeling realistic traffic profiles, selecting load-testing tools, running baseline and stress tests, identifying API and database bottlenecks, setting regression gates in CI, or validating production-readiness before release. Do not use for general unit/integration test strategy; use `testing-best-practices-codex`.
 ---
 
 # Performance And Load Testing Best Practices

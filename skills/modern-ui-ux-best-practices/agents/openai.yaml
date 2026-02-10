@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modern UI UX Best Practices"
+  short_description: "Design modern accessible high-performance interfaces"
+  default_prompt: "Use $modern-ui-ux-best-practices to design or review modern UI UX quality."

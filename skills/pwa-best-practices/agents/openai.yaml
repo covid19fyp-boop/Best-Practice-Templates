@@ -1,0 +1,4 @@
+interface:
+  display_name: "PWA Best Practices"
+  short_description: "Build and operate production-ready PWAs"
+  default_prompt: "Use $pwa-best-practices to design or review this Progressive Web App implementation and release plan."

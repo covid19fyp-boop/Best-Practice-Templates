@@ -1,6 +1,6 @@
 ---
 name: soft-delete-best-practices
-description: Design and implement reliable soft-delete behavior across FastAPI, PostgreSQL, Next.js, and Dockerized deployments. Use when introducing soft delete fields, preserving uniqueness for active records, filtering deleted rows by default, defining DELETE/restore API semantics, handling cascade behavior, or planning retention and purge workflows.
+description: Design and implement reliable row-level soft-delete behavior across FastAPI, PostgreSQL, Next.js, and Dockerized deployments. Use when introducing soft-delete fields, preserving uniqueness for active records, filtering deleted rows by default, defining DELETE/restore API semantics, handling cascade behavior, or planning retention and purge workflows. Use `attachment-best-practices` for attachment/object-storage lifecycle design.
 ---
 
 # Soft Delete Best Practices

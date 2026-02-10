@@ -1,6 +1,6 @@
 # Official Sources
 
-Date reviewed: February 7, 2026
+Date reviewed: 10/02/2026
 
 ## CI/CD Platforms And Core Docs
 
@@ -28,5 +28,5 @@ Date reviewed: February 7, 2026
 ## Codex Automation Context
 
 - https://developers.openai.com/codex/cli
-- https://developers.openai.com/codex/non-interactive-mode
-- https://developers.openai.com/codex/github
+- https://developers.openai.com/codex/cli/reference
+- https://developers.openai.com/codex/app-server

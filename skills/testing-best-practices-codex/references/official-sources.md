@@ -1,6 +1,6 @@
 # Official Sources
 
-Date reviewed: February 6, 2026
+Date reviewed: 10/02/2026
 
 ## Pytest
 
@@ -33,5 +33,5 @@ Date reviewed: February 6, 2026
 
 ## OpenAI Codex
 
-- https://developers.openai.com/codex/cli/commands
-- https://developers.openai.com/codex/cli/overview
+- https://developers.openai.com/codex/cli
+- https://developers.openai.com/codex/cli/reference

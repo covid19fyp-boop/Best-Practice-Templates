@@ -1,0 +1,4 @@
+interface:
+  display_name: "Good App Best Practices"
+  short_description: "Drive overall product quality and release readiness"
+  default_prompt: "Use $good-app-best-practices to evaluate and improve overall app quality."

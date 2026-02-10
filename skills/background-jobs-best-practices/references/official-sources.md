@@ -18,7 +18,8 @@ Date reviewed: 09/02/2026
 
 ## RabbitMQ
 
-- https://www.rabbitmq.com/docs/dlx
+- https://www.rabbitmq.com/docs
+- https://www.rabbitmq.com/documentation.html
 
 ## PostgreSQL
 

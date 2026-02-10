@@ -1,6 +1,6 @@
 # Official Sources
 
-Date reviewed: February 6, 2026
+Date reviewed: 10/02/2026
 
 ## Git And Git For Windows
 
@@ -15,7 +15,7 @@ Date reviewed: February 6, 2026
 - https://docs.github.com/en/get-started/git-basics/set-up-git
 - https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings
 - https://docs.github.com/en/get-started/git-basics/ignoring-files
-- https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/caching-your-github-credentials-in-git
+- https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git
 - https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches
 
 ## Microsoft Windows And WSL

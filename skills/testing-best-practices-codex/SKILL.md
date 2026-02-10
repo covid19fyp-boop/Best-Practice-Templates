@@ -1,6 +1,6 @@
 ---
 name: testing-best-practices-codex
-description: Plan and execute reliable testing workflows for Codex-driven development across FastAPI, Next.js, PostgreSQL, and Docker. Use when deciding test scope, writing or updating tests, running fast feedback loops, validating integration behavior, handling flaky tests, or setting CI gates before merge.
+description: Plan and execute reliable testing workflows for Codex-driven development across FastAPI, Next.js, PostgreSQL, and Docker. Use when deciding test scope, writing or updating tests, running fast feedback loops, validating integration behavior, handling flaky tests, or setting CI gates before merge. Do not use for dedicated performance/load-test program design; use `performance-load-testing-best-practices`.
 ---
 
 # Testing Best Practices For Codex

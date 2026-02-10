@@ -1,6 +1,6 @@
 # Anthropic Agent Skills Research Notes
 
-Date reviewed: February 6, 2026
+Date reviewed: 10/02/2026
 
 ## Core Model
 
@@ -20,6 +20,7 @@ Date reviewed: February 6, 2026
 ## Description And Triggering Guidance
 
 - Write descriptions that combine capability and context triggers.
+- Include explicit trigger phrases users are likely to type.
 - Include the likely user language that indicates skill usage.
 - Avoid broad labels that match too many requests.
 - Avoid overlong descriptions that bloat context.
@@ -34,11 +35,26 @@ Date reviewed: February 6, 2026
 
 - Skills are lazy loaded; long skills can still hurt inference quality after loading.
 - Practical guidance emphasizes concise skills and avoiding monoliths.
-- Anthropic documentation also notes these API constraints for uploaded skills.
+- Anthropic documentation notes these API constraints for uploaded skills.
 - Skill `name` max length: 64.
 - Skill `description` max length: 1024.
 - Skill package max size: 8 MB.
-- Skill names cannot use reserved words such as `artifacts`, `mcp`, `todo`, or `task`.
+- Skill names cannot include reserved words `anthropic` or `claude`.
+
+## Evaluation And Trigger Testing Guidance
+
+- Develop skills incrementally and validate with real prompts.
+- Test both "what the skill should trigger on" and "what it should not trigger on".
+- Keep explicit positive and negative examples for boundary prompts.
+- Evaluate across models/environments where the skill will run.
+
+## Portfolio Operations Guidance From Claude Code Docs
+
+- Separate scopes and ownership clearly (enterprise, personal, project).
+- Avoid naming collisions across scopes, because matching names can create precedence ambiguity.
+- Use directory organization patterns for scale (`skills/`, category folders, monorepo references).
+- Use invocation controls where available (`allowed-tools`, `user-invocable`, `disable-model-invocation`).
+- Use subagents for specialized execution when orchestration complexity grows.
 
 ## Common Anti-Patterns
 
@@ -59,6 +75,7 @@ Date reviewed: February 6, 2026
 
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
-- https://platform.claude.com/docs/en/agents-and-tools/agent-skills/skill-format
+- https://docs.anthropic.com/en/docs/claude-code/skills
+- https://docs.anthropic.com/en/docs/claude-code/sub-agents
 - https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf?hsLang=en
 - https://github.com/anthropics/skills

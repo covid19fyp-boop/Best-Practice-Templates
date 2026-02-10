@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintenance Current Stack Best Practices"
+  short_description: "Maintain FastAPI Next.js PostgreSQL Docker stacks safely"
+  default_prompt: "Use $maintenance-current-stack-best-practices to review and improve stack maintenance practices."

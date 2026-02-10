@@ -1,0 +1,4 @@
+interface:
+  display_name: "Error Solution Best Practices"
+  short_description: "Design robust error handling and remediation flows"
+  default_prompt: "Use $error-solution-best-practices to improve error handling and solution workflows."

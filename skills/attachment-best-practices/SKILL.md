@@ -1,6 +1,6 @@
 ---
 name: attachment-best-practices
-description: Design and implement attachment/file handling across FastAPI, Next.js, PostgreSQL, and object storage with production-safe patterns. Use when defining upload/download APIs, metadata schema, object key structure, signed URL flows, soft-delete and restore behavior, retention and purge jobs, or attachment security and testing strategy.
+description: Design and implement attachment/file handling across FastAPI, Next.js, PostgreSQL, and object storage with production-safe patterns. Use when defining upload/download APIs, metadata schema, object key structure, signed URL flows, attachment retention/purge, and attachment security/testing strategy. Use `soft-delete-best-practices` for generic row-level soft-delete policies outside attachment domains.
 ---
 
 # Attachment Best Practices

@@ -1,6 +1,6 @@
 # Official Sources
 
-Date reviewed: February 6, 2026
+Date reviewed: 10/02/2026
 
 ## FastAPI
 
@@ -14,7 +14,7 @@ Date reviewed: February 6, 2026
 
 - https://nextjs.org/docs/app/getting-started/project-structure
 - https://nextjs.org/docs/app/getting-started/layouts-and-pages
-- https://nextjs.org/docs/app/getting-started/route-groups
+- https://nextjs.org/docs/app/building-your-application/routing/route-groups
 - https://nextjs.org/docs/app/getting-started/server-and-client-components
 - https://nextjs.org/docs/app/building-your-application/routing/colocation
 - https://nextjs.org/docs/app/building-your-application/routing/route-handlers
