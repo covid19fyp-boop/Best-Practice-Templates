@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Research Best Practices"
+  short_description: "Research with Codex using source-backed workflows"
+  default_prompt: "Use $codex-research-best-practices to research this topic with official sources and produce a citation-backed recommendation."

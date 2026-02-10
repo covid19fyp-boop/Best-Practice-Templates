@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex CLI Win11 VS Code"
+  short_description: "Run Codex CLI safely on Windows 11 with VS Code"
+  default_prompt: "Use $codex-cli-windows11-vscode-best-practices to configure and troubleshoot Codex CLI in my Windows 11 + VS Code setup."

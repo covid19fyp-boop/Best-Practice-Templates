@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alembic Migration Best Practices"
+  short_description: "Run safe Alembic migration workflows"
+  default_prompt: "Use $alembic-migration-best-practices to plan, review, and release Alembic migrations safely for this FastAPI + PostgreSQL + Docker stack."

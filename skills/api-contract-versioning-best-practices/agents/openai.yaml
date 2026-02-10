@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Contract Versioning Best Practices"
+  short_description: "Govern API contracts and version changes"
+  default_prompt: "Use $api-contract-versioning-best-practices to design or review API contract changes, versioning rules, and deprecation workflow for this FastAPI + Next.js stack."

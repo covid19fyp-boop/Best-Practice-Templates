@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testing Best Practices (Codex)"
+  short_description: "Run reliable test workflows with Codex"
+  default_prompt: "Use $testing-best-practices-codex to choose and run the right test workflow for this change."

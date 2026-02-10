@@ -1,0 +1,4 @@
+interface:
+  display_name: "Malaysia Format (English)"
+  short_description: "Apply Malaysia locale formatting in English across the full stack"
+  default_prompt: "Use $malaysia-format-english-fullstack to implement Malaysia formatting (date/time/number/currency/timezone) with English language across FastAPI + Next.js + PostgreSQL + Docker."

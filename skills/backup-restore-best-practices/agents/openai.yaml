@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backup Restore Best Practices"
+  short_description: "Design resilient backup and restore workflows"
+  default_prompt: "Use $backup-restore-best-practices to design or review backup and restore strategy for this stack."

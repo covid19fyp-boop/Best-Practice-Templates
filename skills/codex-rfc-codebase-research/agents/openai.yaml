@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex RFC Codebase Research"
+  short_description: "Deep RFC and codebase decision research workflow"
+  default_prompt: "Use $codex-rfc-codebase-research to analyze this RFC against the current codebase and produce a cited recommendation."

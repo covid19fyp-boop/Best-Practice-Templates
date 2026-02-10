@@ -1,0 +1,4 @@
+interface:
+  display_name: "Soft Delete Best Practices"
+  short_description: "Design safe soft-delete workflows"
+  default_prompt: "Use $soft-delete-best-practices to design and validate soft delete for this feature."

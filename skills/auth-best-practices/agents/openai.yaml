@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auth Best Practices"
+  short_description: "Design secure auth across full stack"
+  default_prompt: "Use $auth-best-practices to design or review authentication and authorization for this FastAPI + Next.js + PostgreSQL + Docker system."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Best Practices"
+  short_description: "Build and harden Docker setups"
+  default_prompt: "Use $docker-best-practices to create or review Dockerfiles and Compose config for this project."

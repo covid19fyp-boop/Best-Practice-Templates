@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full-Stack FNPD Best Practices"
+  short_description: "Run FastAPI+Next.js+Postgres in Docker"
+  default_prompt: "Use $fullstack-fastapi-nextjs-postgres-docker to design or review this stack end to end."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postgres Docker Best Practices"
+  short_description: "Containerized Postgres design and ops"
+  default_prompt: "Use $postgres-docker-best-practices to design or review a PostgreSQL Docker/Compose setup for this project."

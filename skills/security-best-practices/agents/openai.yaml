@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Best Practices"
+  short_description: "Harden FastAPI Next.js Postgres Docker stacks"
+  default_prompt: "Use $security-best-practices to assess and improve security for this full-stack system."

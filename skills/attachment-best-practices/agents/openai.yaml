@@ -1,0 +1,4 @@
+interface:
+  display_name: "Attachment Best Practices"
+  short_description: "Build secure, recoverable attachment workflows"
+  default_prompt: "Use $attachment-best-practices to design or review this attachment feature end to end."

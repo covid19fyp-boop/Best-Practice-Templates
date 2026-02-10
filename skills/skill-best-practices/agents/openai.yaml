@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Best Practices"
+  short_description: "Create and review robust agent skills"
+  default_prompt: "Use $skill-best-practices to design and validate a new skill for this task."

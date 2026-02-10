@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observability Best Practices"
+  short_description: "Operate observability across full stack"
+  default_prompt: "Use $observability-best-practices to design or review telemetry, dashboards, and alerts for this FastAPI + Next.js + PostgreSQL + Docker system."

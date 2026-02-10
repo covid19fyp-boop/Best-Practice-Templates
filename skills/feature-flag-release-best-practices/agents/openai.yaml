@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Flag Release Best Practices"
+  short_description: "Run safer progressive feature releases"
+  default_prompt: "Use $feature-flag-release-best-practices to design or review feature-flag rollout, kill-switch, and cleanup workflows for this FastAPI + Next.js + PostgreSQL + Docker system."

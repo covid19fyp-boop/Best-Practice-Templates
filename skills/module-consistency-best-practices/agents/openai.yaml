@@ -1,0 +1,4 @@
+interface:
+  display_name: "Module Consistency Best Practices"
+  short_description: "Keep module structure consistent across stack"
+  default_prompt: "Use $module-consistency-best-practices to standardize module structure and enforce boundary rules for this feature."

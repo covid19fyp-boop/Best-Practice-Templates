@@ -1,0 +1,4 @@
+interface:
+  display_name: "FastAPI Best Practices"
+  short_description: "Build and run robust FastAPI services"
+  default_prompt: "Use $fastapi-best-practices to design or review this FastAPI service architecture and implementation plan."

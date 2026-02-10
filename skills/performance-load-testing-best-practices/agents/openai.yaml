@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Load Testing Best Practices"
+  short_description: "Run reliable performance testing workflows"
+  default_prompt: "Use $performance-load-testing-best-practices to design, execute, and review performance/load testing for this FastAPI + Next.js + PostgreSQL + Docker stack."

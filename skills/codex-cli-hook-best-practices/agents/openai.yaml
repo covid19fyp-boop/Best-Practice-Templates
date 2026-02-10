@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex CLI Hook Best Practices"
+  short_description: "Build safe Codex CLI hook automation"
+  default_prompt: "Use $codex-cli-hook-best-practices to design or review Codex CLI hook workflows with notifications, JSON event handlers, and policy guardrails."

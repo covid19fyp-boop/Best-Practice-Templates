@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Best Practices (Windows)"
+  short_description: "Set up and run Git safely on Windows"
+  default_prompt: "Use $git-windows-best-practices to set up and audit Git best practices for this Windows 11 project."

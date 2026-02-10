@@ -1,0 +1,4 @@
+interface:
+  display_name: "Background Jobs Best Practices"
+  short_description: "Design reliable async worker workflows"
+  default_prompt: "Use $background-jobs-best-practices to design or review queue, worker, retry, and scheduling architecture for this FastAPI + PostgreSQL + Docker system."

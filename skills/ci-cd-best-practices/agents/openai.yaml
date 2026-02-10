@@ -1,0 +1,4 @@
+interface:
+  display_name: "CI/CD Best Practices"
+  short_description: "Design secure, reliable, and fast CI/CD pipelines"
+  default_prompt: "Use $ci-cd-best-practices to design or review this pipeline with clear quality, security, and release gates."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDLC Codex CLI Best Practices"
+  short_description: "Use Codex CLI across plan-build-test-release flow"
+  default_prompt: "Use $sdlc-codex-cli-best-practices to structure this task through planning, implementation, verification, and release gates."
