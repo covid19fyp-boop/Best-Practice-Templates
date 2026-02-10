@@ -7,6 +7,18 @@
 
 ## Skills Rule
 - ALWAYS refer to relevant skills BEFORE generating code.
+- For any project development task, ALWAYS use this mandatory baseline skill set first (in this order):
+- `sdlc-personal-dev`
+- `architecture-modular-monolith`
+- `repo-structure-and-conventions`
+- `testing-strategy`
+- `technical-debt-controls`
+- `database-and-migrations`
+- `security-and-secrets`
+- `release-and-versioning`
+- `codex-cli-integration`
+- Add `architecture-splitting-strategy` whenever discussing service extraction, app splitting, or boundary decomposition.
+- These baseline skills are mandatory and take priority for all new feature, bugfix, refactor, and release work.
 - Use `fullstack-fastapi-nextjs-postgres-docker` when the task spans 2 or more stack layers (frontend, backend, database, docker, CI/release flow).
 - Use stack-specific skills for isolated tasks:
 - `fastapi-best-practices` for backend API/service design and implementation.
@@ -32,6 +44,17 @@
 - `performance-load-testing-best-practices` when designing or reviewing performance validation workflows (SLO/latency targets, realistic workload modeling, k6/Locust execution, FastAPI/Next.js/PostgreSQL bottleneck diagnostics, Dockerized test parity, and CI regression gates).
 - `feature-flag-release-best-practices` when designing or reviewing flag-driven release controls (flag taxonomy/lifecycle, targeting and stickiness, progressive rollout and kill-switch safety, FastAPI/Next.js implementation boundaries, testing/observability gates, and stale-flag cleanup policy).
 - `codex-cli-hook-best-practices` when designing or reviewing Codex CLI hook-style automation (notify command handlers, `codex exec --json` event consumers, app-server notification integrations, command/rules safety guardrails, and hook reliability/testing).
+- Prefer the repo-local SDLC skill pack for long-term maintainability workflows:
+- `sdlc-personal-dev` for end-to-end solo/small-team SDLC loop execution with debt control.
+- `architecture-modular-monolith` for service-shaped modular monolith boundaries and internal contracts.
+- `architecture-splitting-strategy` for keep-vs-split decisions and staged extraction planning.
+- `repo-structure-and-conventions` for folder standards, naming, docs-as-code, and ADR hygiene.
+- `testing-strategy` for practical unit/integration/e2e/contract balance and CI-friendly test design.
+- `technical-debt-controls` for quality gates, definition-of-done, and refactoring cadence.
+- `database-and-migrations` for PostgreSQL data ownership, schema evolution, and migration safety.
+- `security-and-secrets` for secrets handling, least privilege, secure defaults, and recovery readiness.
+- `release-and-versioning` for SemVer/changelog discipline, release gates, and rollback planning.
+- `codex-cli-integration` for Codex CLI SOP across planning, implementation, testing, review, and docs.
 - Combine full-stack and specific skills when needed:
 - Use full-stack skill first for architecture and integration decisions.
 - Then use specific skills for deep implementation details in each layer.
