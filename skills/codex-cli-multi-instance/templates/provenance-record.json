@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "tool": {
+    "name": "codex-cli",
+    "cli_version": "vX.Y.Z",
+    "model": "gpt-5-codex"
+  },
+  "run": {
+    "timestamp_utc": "YYYY-MM-DDTHH:MM:SSZ",
+    "role": "scaffold",
+    "repo": "owner/repo",
+    "git_sha": "<sha>"
+  },
+  "inputs": {
+    "prompt_sha256": "<sha256>",
+    "agents_md_sha256": "<sha256>",
+    "rules_sha256": "<sha256>"
+  },
+  "policy": {
+    "sandbox_mode": "read-only",
+    "approval_policy": "never",
+    "network_access": false
+  },
+  "outputs": {
+    "jsonl_log": "codex-events.jsonl",
+    "final_message": "codex-output.md"
+  }
+}

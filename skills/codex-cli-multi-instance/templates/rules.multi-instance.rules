@@ -1,0 +1,19 @@
+# Conceptual rules file for multi-instance safety.
+# Adapt prefixes and decisions to your Codex rules format.
+
+prefix_rule(
+  pattern=["rm", "-rf"],
+  decision="forbidden",
+  justification="Destructive deletes are blocked."
+)
+
+prefix_rule(
+  pattern=["git", "push"],
+  decision="prompt",
+  justification="Require approval before remote writes."
+)
+
+prefix_rule(
+  pattern=["docker", "run"],
+  decision="allow"
+)

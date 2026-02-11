@@ -1,0 +1,17 @@
+# Example profile file for multi-instance Codex usage.
+# Merge the relevant blocks into your project `.codex/config.toml`.
+
+[profile.scaffold]
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+[sandbox_workspace_write]
+network_access = false
+
+[profile.fixer]
+sandbox_mode = "read-only"
+approval_policy = "never"
+
+[profile.reviewer]
+sandbox_mode = "read-only"
+approval_policy = "never"

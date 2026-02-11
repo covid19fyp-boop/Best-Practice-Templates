@@ -44,6 +44,7 @@
 - `performance-load-testing-best-practices` when designing or reviewing performance validation workflows (SLO/latency targets, realistic workload modeling, k6/Locust execution, FastAPI/Next.js/PostgreSQL bottleneck diagnostics, Dockerized test parity, and CI regression gates).
 - `feature-flag-release-best-practices` when designing or reviewing flag-driven release controls (flag taxonomy/lifecycle, targeting and stickiness, progressive rollout and kill-switch safety, FastAPI/Next.js implementation boundaries, testing/observability gates, and stale-flag cleanup policy).
 - `codex-cli-hook-best-practices` when designing or reviewing Codex CLI hook-style automation (notify command handlers, `codex exec --json` event consumers, app-server notification integrations, command/rules safety guardrails, and hook reliability/testing).
+- `codex-cli-multi-instance` when designing or operating multiple Codex CLI instances/roles (scaffold, fixer, reviewer), including per-instance isolation, role-based sandboxing, parallel CI orchestration, and run provenance logging.
 - Prefer the repo-local SDLC skill pack for long-term maintainability workflows:
 - `sdlc-personal-dev` for end-to-end solo/small-team SDLC loop execution with debt control.
 - `architecture-modular-monolith` for service-shaped modular monolith boundaries and internal contracts.
@@ -55,6 +56,7 @@
 - `security-and-secrets` for secrets handling, least privilege, secure defaults, and recovery readiness.
 - `release-and-versioning` for SemVer/changelog discipline, release gates, and rollback planning.
 - `codex-cli-integration` for Codex CLI SOP across planning, implementation, testing, review, and docs.
+- `codex-cli-multi-instance` for safe multi-agent Codex orchestration in local and CI workflows.
 - Combine full-stack and specific skills when needed:
 - Use full-stack skill first for architecture and integration decisions.
 - Then use specific skills for deep implementation details in each layer.
